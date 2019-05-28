@@ -2,6 +2,7 @@
 def binary_search(item_list,item):
      
     item_list.sort()
+    print(item_list)
     lowest = 0
     highest = len(item_list) - 1  
 
