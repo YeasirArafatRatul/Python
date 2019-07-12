@@ -1,11 +1,13 @@
 #Selection sort
 
+
+
 #step 1: i = 0
 #step 2: if i >= n-1 go to step 11 (for counting the iterations)
 #step 3: minimum no of the list is   i = index_min
 #step 4: j = i+1
 #step 5: if j <= n go to step 9
-#step 6: if list[j] < list[index_min (which is equal to i's value)
+#step 6: if list[j] < list[index_min]
 #         go to step 7
 #         else go to step 8
 
@@ -14,6 +16,8 @@
 #step 9: if i != index_min then swap list[i] & list[index_min]
 #step 10: i = i+1 and go to step 2
 #step 11: the list is sorted
+
+
 
 def selection_sort(a_list):
     n = len(a_list)
