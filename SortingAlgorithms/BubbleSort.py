@@ -29,6 +29,8 @@ if __name__ == "__main__":
     for i in range(0,n):
         element = int(input())
         a_list.append(element)
+        
+    print("before sorting:",a_list)
 
     bubble_sort(a_list,n)
         
