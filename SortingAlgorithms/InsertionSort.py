@@ -51,3 +51,7 @@ alist[1+1=2] = alist[1]
              so it will again enter in the while loop and swap the value
              after this iteration the list is = [1,2,4,5,6]
 """
+"""
+complexity of insertion sort is O(n^2)
+if the list is sorted first then it is O(n) cz it will execute the for loop
+"""
