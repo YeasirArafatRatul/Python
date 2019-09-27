@@ -1,5 +1,3 @@
-"""a program to find that how many times
-   the largest number of a list is found"""
 def birthdayCakeCandles(ar):
     count = 0
     big = max(ar)
