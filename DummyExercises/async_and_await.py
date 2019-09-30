@@ -1,8 +1,8 @@
 import asyncio
 import time
+
+
 #run multiple coroutines
-
-
     
 async def display_time():
     start_time = time.time()
@@ -34,3 +34,4 @@ asyncio.run(main())
 #loop = asyncio.get_event_loop()
 #loop.run_until_complete(main())
 #loop.close()
+#event_loop keeps track of the coroutine functions and handles their stop and start status
