@@ -6,7 +6,7 @@ def file():
     c = filedialog.askopenfilename()
     
     
-    file = c.name
+    file = c.name()
     f = open(file)
     label2 = label(text = f.read()).pack()
 button = tk.Button(text ="Choose file",width=30,command = file).pack()
